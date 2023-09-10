@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+.page {
+  background-color: rgb(155, 155, 196);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.box {
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  background-color: #fff;
+  height: 400px;
+  margin: auto;
+  border-radius: 0.4rem;
+  display: grid;
+  grid-template-rows: 40% 1fr;
+}
+.first-child {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+#item-1 {
+  background-color: aquamarine;
+}
+#item-2 {
+  background-color: rgb(138, 145, 110);
+}
+#item-3 {
+  background-color: rgb(145, 129, 110);
+}
+#item-4 {
+  background-color: rgb(110, 117, 145);
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.second-child {
+  background-color: burlywood;
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+}
+.heading.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #fff;
+}
+.heading-one {
+  background-color: brown;
+}
+.heading-two {
+  background-color: rgb(42, 65, 165);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.heading-three {
+  background-color: rgb(42, 165, 52);
+}
+.item-heading-first {
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+}
+.item-heading-second {
+  background-color: rgb(219, 200, 187);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  text-align: center;
+}
+.element:nth-child(2) {
+  background-color: red;
+}
